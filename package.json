@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-904964",
+  "version": "0.0.0",
+  "description": "Generated with Eclipse npm Tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "graceful-fs": "^4.1.11",
+    "js-string-escape": "^1.0.1",
+    "jsesc": "^2.5.1",
+    "libxml-xsd": "^0.5.2",
+    "libxmljs": "^0.18.7",
+    "mysql": "^2.15.0",
+    "path": "^0.12.7",
+    "promise": "^8.0.1",
+    "request": "^2.83.0",
+    "url": "^0.11.0"
+  }
+}
