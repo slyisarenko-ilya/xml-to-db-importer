@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # xml-to-db-importer
 
 Скрипты nodejs:
@@ -40,3 +41,6 @@ tagHandlers["categoryType"] = {
 
 
 ! Внизу скрипта находится код предварительной очистки таблиц.
+=======
+# xml-to-db-importer
+>>>>>>> branch 'master' of https://github.com/slyisarenko-ilya/xml-to-db-importer.git
