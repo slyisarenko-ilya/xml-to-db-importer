@@ -21,9 +21,9 @@ var sourceUrls = [
 //	"/home/intense/temp/nodejs-904964/packageList.xml",
 //	"/home/intense/temp/nodejs-904964/ndsList.xml",
 //	"/home/intense/temp/nodejs-904964/currencyList.xml",
-	"/home/intense/temp/nodejs-904964/detailList.xml",
+//	"/home/intense/temp/nodejs-904964/detailList.xml",
 	
-//	"/home/intense/temp/nodejs-904964/category_1_1.xml",
+	"/home/intense/temp/nodejs-904964/category_1_1.xml"
 ];
 
 
@@ -42,25 +42,25 @@ tableTags['tagType'] = {table: "tagList",
 
 tableTags['okeiType'] = {table: "okeiList",
 		attributes: ["id", "name", "code"],
-		fields:["id", "name", "code"]};
+		fields:     ["id", "name", "code"]};
 
 tableTags['currencyType'] = {table: "currencyList",
 		attributes: ["id", "name", "code"],
-		fields:["id", "name", "code"]};
+		fields:     ["id", "name", "code"]};
 
 tableTags['packageType'] = {table: "packageList",
 		attributes: ["id", "name", "code"],
-		fields:["id", "name", "code"]};
+		fields:     ["id", "name", "code"]};
 
 tableTags['categoryType'] = {table: "categoryList",
 		attributes: ["id", "name", "code", "kpgzId", "parentId"],
-		fields:["id", "name", "code","kpgzId",  "parentId"],
+		fields:     ["id", "name", "code","kpgzId",  "parentId"],
 		defaults:["-1", "", "","-1",  "-1"]};
 
 tableTags['detailType'] = {table: "detailList",
-		attributes: ["id", "name", "code", "isRange", "type", "isLevelDefine","isObligatory", "categoryId"],
-		fields:["id", "name", "code", "isRange", "type", "isLevelDefine","isObligatory", "categoryId"],
-		defaults:["-1", "",    "",      "true",   "" ,  "", "", "-1"]};
+		attributes: ["id", "name", "code", "isRange", "type", "isLevelDefine", "isObligatory", "categoryId"],
+		fields:     ["id", "name", "code", "isRange", "type", "isLevelDefine", "isObligatory", "categoryId"],
+		defaults:["-1", "",    "",      "true",    "" ,        "",              "",          "-1"]};
 
 
 function clearTable(tableName){
